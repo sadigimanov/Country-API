@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country API</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-[800px] mx-auto border my-10 p-5">
+        <div class="mb-4 ">
+            <input id="search" type="text" class="h-[45px] border border-gray-400 w-full px-2 rounded-md">
+        </div>
+        <div class="flex gap-x-8">
+            <figure class="w-[150px] h-[100px] border border-gray-400">
+                <img id="photo" class="size-full object-cover" src="https://flagcdn.com/w320/az.png" alt="aze">
+            </figure>
+            <div>
+                <h3 id="name" class="font-bold text-3xl"></h3>
+                <p id="sub-name" class="font-semibold text-xl"></p>
+            </div>
+        </div>
+        <div id="borders" class="grid grid-cols-3 gap-2 mt-10 border border-gray-400 p-2">
+            <img class="size-[50px]" src="./assets/img/Eclipse@1x-1.0s-200px-200px.gif" alt="">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
